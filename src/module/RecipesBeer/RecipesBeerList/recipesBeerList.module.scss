@@ -1,0 +1,43 @@
+.wrapperList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.wrapperItem {
+  position: relative;
+  width: 440px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(249, 233, 213, 0);
+}
+
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 400px;
+}
+.selected {
+  background-color: rgba(230, 133, 7, 0.311);
+}
+.btnTrash {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 100;
+  border-radius: 50%;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  padding: 10px;
+  font-size: 26px;
+  font-family: Nunito;
+  line-height: 26px;
+  color: black;
+}

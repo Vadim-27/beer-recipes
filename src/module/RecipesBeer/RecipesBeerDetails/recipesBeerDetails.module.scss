@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  gap: 60px;
+  padding: 60px;
+}
+.avatar {
+  min-width: 220px;
+}
+.text {
+  padding: 10px;
+  font-size: 26px;
+  font-family: Nunito;
+  line-height: 26px;
+  color: black;
+}

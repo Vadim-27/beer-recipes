@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+}
+.btn{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 60px;
+    border-radius: 40%;
+    background-color: rgba(183, 242, 222, 0.365);
+}
+.btn:hover{
+    background-color: rgba(5, 84, 5, 0.547);
+}
+.text{
+        font-size: 40px;
+font-family: Nunito;
+line-height: 26px;
+color: black;
+}

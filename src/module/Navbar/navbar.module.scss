@@ -1,0 +1,33 @@
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+}
+.wrapperLogo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 40px;
+  font-family: Nunito;
+  line-height: 26px;
+  align-items: center;
+  color: black;
+}
+.wrapperLink {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.navbarLink {
+  font-size: 40px;
+  font-family: Nunito;
+  line-height: 26px;
+  color: black;
+}
